@@ -34,6 +34,9 @@ gem "jbuilder", "~> 2.5"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# https://github.com/qpowell/google_places
+gem "google_places"
+
 group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem "capybara", "~> 2.13"
