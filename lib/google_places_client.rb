@@ -31,7 +31,7 @@ class GooglePlacesClient
         formatted_address: result.formatted_address,
         lat: result.lat,
         lng: result.lng,
-        viewport: result.viewport,
+        viewport: result.viewport
       }
     end
   end
