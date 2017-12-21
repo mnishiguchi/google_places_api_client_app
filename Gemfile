@@ -36,9 +36,11 @@ gem "jbuilder", "~> 2.5"
 
 # https://github.com/qpowell/google_places
 gem "google_places"
-
 # https://github.com/edwardsamuel/google-maps-services-ruby
 gem "google_maps_service"
+# https://github.com/joshuaclayton/polylines
+gem "polylines"
+gem "httparty"
 
 group :development, :test do
   # Adds support for Capybara system testing and selenium driver
