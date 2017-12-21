@@ -41,6 +41,8 @@ gem "google_maps_service"
 # https://github.com/joshuaclayton/polylines
 gem "polylines"
 gem "httparty"
+gem "geocoder", github: "mnishiguchi/geocoder", branch: "mnishiguchi/mapzen"
+gem "redis-rails"
 
 group :development, :test do
   # Adds support for Capybara system testing and selenium driver

@@ -4,8 +4,9 @@ class NominatimClient
 
   SEARCH_URL = "http://nominatim.openstreetmap.org/search.php".freeze
   DEFAULT_QUERY = { countrycodes: "us", polygon: 1, format: "json", limit: 1 }.freeze
+  SLICE_KEYS = %w[place_id boundingbox polygonpoints lat lon display_name type].freeze
 
-  def search(params, slice_keys = %w[place_id boundingbox polygonpoints lat lon display_name type])
+  def search(params, slice_keys = SLICE_KEYS)
     response = HTTParty.get(SEARCH_URL, query: DEFAULT_QUERY.merge(params)).response
     JSON.parse(response.body).map do |result_hash|
       transform_result_hash(result_hash).slice(*slice_keys)
