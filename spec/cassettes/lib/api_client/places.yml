@@ -1,0 +1,843 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyA9CucPXf8WfL7K4HiMZzw5D8mXwrnX2XI&keyword=&language=en&location=38.92044000,-77.04232400&name=&radius=&rankby=distance&types=restaurant
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 21 Dec 2017 23:31:43 GMT
+      Expires:
+      - Thu, 21 Dec 2017 23:36:43 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - pablo
+      Content-Length:
+      - '9303'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337;
+        quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "CqQCGgEAABovq5YF3gnfLCub9Q3DRTSp2_RtvKOZHpfvNK0pCPvwzUl5xUmlrO57GJAxCLTahq-PLLRNMT9kyEG5REb7KPyz1V4sISdyG8y_9fpiCnpCgMQ4jmzBf1kGrDVadmAqxF1HM1aVgx4wPge-H2-OQNqOf41eEn6oqgbEsQR41GmtrPSRnDy8qy0YasaP0hmDuj0pBJBAuWPKfxXh-Xdje9vLuZdrXzo0PCtVbAhR0Hdhf4u6WHamzvhJbFN8T_eA94N3ClE4zqA8OWWKodOAh31DMNaPHKb5Mpco2CXLellcGHeY1DzS4sBX8ESJgJKTVZW0zXlM-i0znme6bypyO3TV_cgHK-MB_PUJXEDkxNl9wHKDMr6GcHtS2oW3F962mxIQYREcWitBYu_riuB_vXVhWRoUxcqRAoJWNUHaOtcsUfl-1dqjC-c",
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9207482,
+                       "lng" : -77.0422219
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9221131302915,
+                          "lng" : -77.04079051970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.9194151697085,
+                          "lng" : -77.04348848029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "bcfb6c0b6a945e1a85cc8de88c8d2f90e0689c9e",
+                 "name" : "Wok and Roll",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109116569224615159040/photos\"\u003eRich Bell\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAC_X7VlUeIrHQKhm17nOZYgYZD-M2QOiTDkhNu14O0zYO2ySBOSTRQEgYhXM5mWwu3OPp90QT1DKJOo80Sn6fy3mG23bbj1SQv0-Qc4W9hVOcon3kzjwI0QyMzbfVBELVEhC5ffiLBuq9imjQxqBjQpDwGhR-f4AV5Hq0bvyIHeD1MDRc1Vy9AQ",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJ4T3Ustu3t4kRdc5U454Plww",
+                 "price_level" : 2,
+                 "rating" : 3.7,
+                 "reference" : "CmRRAAAAfpKZXX1yi1ZLxOBkvqacKEQpJT2Oss_qCGMOgn-7hhcmxfW3yG10jf70-zs4CBygn8FqrUNQhIqv-1cNJ9-Y4cmD7a7567AEQoJFMcHgwwwp1u_l3wZev9gX9bKHFus4EhBTDnajGV7tDionKr6UXzwBGhRbdzOTMRoF4m7sX3i86pF11s0R1g",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2400 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9204955,
+                       "lng" : -77.0416448
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9218127802915,
+                          "lng" : -77.0404438697085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9191148197085,
+                          "lng" : -77.0431418302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "53bed6daa376ddf942c3c2fad77be33f84b339d8",
+                 "name" : "Johnny Pistolas",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 640,
+                       "html_attributions" : [ "Photos are copyrighted by their owners" ],
+                       "photo_reference" : "CmRaAAAAAy2WrRhoAL4a6cokbfbQ3Ir1DmgnKrvyUdNOiIQmM2nTSmHnKygpQDCLSXRDV-9tafC0925oxh87AqMSJpZd2sRUBqUip6xw4FahcD-nvLe9rV-YKP11JGN_WWJnbAIOEhBDqgj8cXoxBoi8pDd79k7ZGhR0mr-tk4cGo807LAz7DRASTwUyjQ",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJ9Ywfstu3t4kRTct014zWpNo",
+                 "rating" : 4,
+                 "reference" : "CmRSAAAAcfPx5YBss_zVKHZCD0s0YfnEsev3z57hL0WTxWOGhoSbytVAEiW_YyTokcjfh-wbgsR-LI9DGT3cictZLzBDrZddqxZGMF2odQD_1_BUqzIG_uZlT7K9ZjVDDa-gnrvgEhAkvnMHBbLG412cxTBaUwBxGhRC7Y43rGpOCceOxl-9egJFIa32pQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2333 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9207092,
+                       "lng" : -77.04169709999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9220274802915,
+                          "lng" : -77.04050701970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.9193295197085,
+                          "lng" : -77.04320498029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "b95cf5635a87d203cbd161f494074b2b2752e2e6",
+                 "name" : "Pizza Citi",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "place_id" : "ChIJYc3_s9u3t4kRUp-g1pWAx6s",
+                 "reference" : "CmRSAAAAnBmE8AbA2CZsr5qYvKajrNpZLZiflqH1MYtX-v0PuAdDdtPBCimJrVhCv5sQv5rts8Djgf6NG25M3E_V9wUO6bWSP3B5KzUtGfSqWQhBUtZtJOgdY6Lt2X_7mWnSWI_hEhDWQYxd8-8l1pR_XocEBq6KGhSVDb96UPunu-38g1eFJEidww_J8Q",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2341 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9207051,
+                       "lng" : -77.04169109999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9220540802915,
+                          "lng" : -77.0403421197085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9193561197085,
+                          "lng" : -77.0430400802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "823984ef058b0dd98309cfa6691c204bcea2770c",
+                 "name" : "Jumbo Slice",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101227237391736781330/photos\"\u003eMarwan\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAMix-mVFjYyPmlpxvnaY4MCwHawlScjcWKycOkntSjclgGL3z5gJcyEJyywxv8GxZ2UHrWpSPAwqmkQwKh5VgzeUs3EwETq3Io47liVxZF6h_DHVNWvT4H4Tw6S0ccz7REhC24CrYi8LdbeR35n7cmp5YGhTsKvjWWvEcG1I32LSHPVo-pB3gQA",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJORCSs9u3t4kRkRMxiu8Chdw",
+                 "rating" : 4.2,
+                 "reference" : "CmRSAAAAKcKKnocA8lB0zPJfwipIBzbwBHF0PEDKC1U2hhP6tTtOPW4iqGXjx45h7vHGuPoIOxoOIy4_mWq0T5VE7jstewQUAgmqtVZQ70QIoPmkHXy80zIx0srdz5viRsqreJ7YEhCRelnBer1eLHa8RCogu3MQGhQT0_M33NwVIy1wR4boSqbDoLNjFA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2341 18th St NW, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.92075129999999,
+                       "lng" : -77.0417068
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.92206923029149,
+                          "lng" : -77.04051846970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.91937126970849,
+                          "lng" : -77.04321643029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+                 "id" : "0b5827bb1ddd9bea64240f7244ea1b9b6a2fe2e3",
+                 "name" : "Queen Cafe Hookah",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 540,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111328867041497380134/photos\"\u003eQueen Cafe Hookah\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAgiVBs-AgYl1gpvtvV5NqmaKgvd2U57RM09KXZKo2lo_J3GsZwXoNh7wQQwXJvGBzj1AjxXUMMUmORGmhbbC11-G277QMrjCDK88tndPzg06DXhBPZ7cs58Ei5m_yPfEBEhDz6CTVPjuWJaKowGjHGGIEGhSWK3NwLrTAROeEeTglK-3Lks7G7A",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJ_wMDtNu3t4kRQITK-nY34SI",
+                 "rating" : 3.1,
+                 "reference" : "CmRRAAAAof7exVm6JQK3XMQzt0PKtHO4kQBtQYiHPHS1zzh1cbgrhMygi4WNKdNhMb3nSY7WUYt8UhoghLuQ1cnJmF5LJIt9k6Lz0ZzvXSzD8B2OJxu_0Bo-rSqcwh5UnGJCFX6yEhC5FsLMNZP5IonRq0MguhXXGhR8w7hq9SNZXXEqBmJeGTsG8p3TQQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2405 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.92040099999999,
+                       "lng" : -77.0415732
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9217144802915,
+                          "lng" : -77.0403900197085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9190165197085,
+                          "lng" : -77.0430879802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "37aba976ff28f1aa856ceaff210007c744f85e47",
+                 "name" : "Columbia Station Inc",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3456,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105363159770113584039/photos\"\u003eHenrique Barbosa\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAouK85iHBR4MDRmljax3d68jcCCOhyVbep2pOF_x9f2EtCZukUJYQEaJvCbdy3zgqIKfkNFF5Ay_fSFYCvZgJ1lyhzSoERJzU-_72L6Sr47n4u1PU57dV8aslYwZrK8QUEhAyTWTSJQye7055lsUD-NmqGhQ46J5tt1kX4-tmMDSEnLUj1tOsCA",
+                       "width" : 4608
+                    }
+                 ],
+                 "place_id" : "ChIJO-z9rdu3t4kRJjR2EBpY2Fc",
+                 "price_level" : 2,
+                 "rating" : 3.7,
+                 "reference" : "CmRRAAAAkM9HwIfN_oe7gofQTOzAzBF8ZaCBIqzBvd6memHkm4ApUNU8srUqwGLDOrXmTOs3epbe7dPYt_ag5sQAhcGgL4KxutavnPAdK1Fx7yTyeLqB7krB9BJeeNLn5U3Xk4KIEhB66HrnjH6KnfBXv-aE7DrEGhQwHwN6uK9FbDciRFlPrYBN5Ppo6g",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2325 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9202659,
+                       "lng" : -77.04157959999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9215847802915,
+                          "lng" : -77.04037121970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.9188868197085,
+                          "lng" : -77.0430691802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "43ae382ade9d04f62b0bf09315ec4a271574d8b9",
+                 "name" : "Bourbon",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1836,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/102317259550512648374/photos\"\u003eAaron Humphrey\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA3EXHyxd7CdbmdHjh242AxRmePhuWbpA02c-RuC9wVWs4qVWqemgltkO_v8apTd-5NYBxoECwGL_B1BDsLE7-kDV4tbwp39GY9xLiimDfSLqXlkA0lJc1u5K9I0uOob5NEhAD2hBGVPD3FSMdU5liLBeRGhQ8pxRMQikPtv_0vy1xeZXmjVU3wA",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJPYdwrtu3t4kRa-hRRb7Rgj0",
+                 "price_level" : 1,
+                 "rating" : 4.3,
+                 "reference" : "CmRRAAAAklcaLaPzG09si-7KRSKYtYoEE84xpjN6d1T12ylHaJyYc9MciUPTLgmyYRDMlw4h1seGJYmzL6aomwuoIv-1ieBPOVpQ7aSkckJ0vegovr1-Xg4PFY12uX51dlCY57jEEhC4naQBrCDc9jKD_KFk_WF7GhSw5mpcX4ZX1S2gF-vj-iat7sDc0A",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2321 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9208395,
+                       "lng" : -77.04173790000002
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9221576802915,
+                          "lng" : -77.04054816970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.91945971970851,
+                          "lng" : -77.04324613029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "5b60f6da6e54fe324e1ab89082898ac639e0066b",
+                 "name" : "Rise Bakery",
+                 "opening_hours" : {
+                    "open_now" : false,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 640,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/114416321430131034838/photos\"\u003eRise Bakery\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAAqAlO0dp6-2z_JbheFXPpkct-nPUi9FtHsUv0C29rQHLm7jwzs7J6EYiG2kGYnPa94eWkbB8B1eDwTioftIVZ2KpY0_TVC2KPkmpEaPkNQt2KdeNlTjrvfx8n7XN3tifEhD_oyvYPTTQc6ImbmjTbSjOGhQxFyD3-O3TCeDwQ6Ynn2c6uskU6Q",
+                       "width" : 640
+                    }
+                 ],
+                 "place_id" : "ChIJ0UsltNu3t4kR2GnrYvNyYQg",
+                 "price_level" : 2,
+                 "rating" : 4.7,
+                 "reference" : "CmRRAAAAudG2Gg0937AOyOcBXsUXI0HX-rasu-3yAoQ6ZryIhlE-HwqsJfHGmtp7s0gdGNCzcHOHuG9xnwaaFYTf9aZ5-CuNpZojpWHqWGPAQywEHPvmMrDBTfv_x8pJwxZVx26PEhDZTtK7cIHG78IMRp0sIbW5GhTtjZpaox42m9pd155dkTHqwvggVg",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "bakery",
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "store",
+                    "point_of_interest",
+                    "establishment"
+                 ],
+                 "vicinity" : "2409 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.92033869999999,
+                       "lng" : -77.04154919999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.92165198029151,
+                          "lng" : -77.04036691970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.91895401970851,
+                          "lng" : -77.04306488029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "2392d1a9d694d82acff1ee76a6b83e4fc0d13ee7",
+                 "name" : "Town Tavern DC",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1356,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115154048881966054632/photos\"\u003eStephen Ly\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAnRbp6lfrAjb9Rll9af6xzhiClrF-phYV_4305Fa9LbJgzHAAy4xMR2tlpuDqaL0rPuxeQlBxIMfPU8-QHG4WW7FHXDbc17a-xKx9VpvFyuz07StQDMsHrfon0KV1t3OWEhCoKXT4Khuxyx4xEYdfh0YyGhQkfk8vNjPUvd6mH3IbtqbhvfCKyw",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJ9Sw6rtu3t4kR4n9ZzQFVsk4",
+                 "rating" : 3.8,
+                 "reference" : "CmRRAAAAZf5mEjPSlNOZ4zWDf7SaEl34aYxqKfqIFoIc3DEJ2lxTXGOb-oYhEPHgu6xasSCRonx1YAwNYDXT_mLkK6eMzTn9Zb9rpdK1JCWxNAyIRD5ktyZYQ_RNAooIFcWPdk6IEhB2SRcbDnGhc2V93hgUDgFFGhRiE2kPjY3EXUT9MxxR-4VbcBB6qQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2323 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9202142,
+                       "lng" : -77.0415488
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9215318302915,
+                          "lng" : -77.0403462197085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9188338697085,
+                          "lng" : -77.0430441802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "4f4646ba2706ae57c6a2f27db3d633c6f1f01f19",
+                 "name" : "Roxanne Restaurant",
+                 "photos" : [
+                    {
+                       "height" : 2988,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/108013020447657344582/photos\"\u003eSese R.\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA15ushgwQ1nxK0bkjMxp2q7VvIC_s2KPk28w8gtou41Z1eaG16-QhGNWD6aC2c2fLibKxJ5GsptpnCLEnF0JIZ0DK2RfjkVoVRUlXfmXWlxcsxK9gCF_rsbukg0fCQQ3rEhBdpKCkIwPKYpvGvaZHitIEGhQDNac5HH5Q5LrvzJgmIcecmDthag",
+                       "width" : 5312
+                    }
+                 ],
+                 "place_id" : "ChIJBYCFrtu3t4kRUp-wpz-wKto",
+                 "rating" : 3.3,
+                 "reference" : "CmRSAAAAcdgs1n0JrPjVLrSN7PktuuU664v6ajmVnG1euWERRwYR7P0SA4IOzxiB6Lwcn4qzPvvKLFeJZ26sEdjp7QBjJPmR8zziu6CJ-S_SVdejkbt1F_LMhbDQjem34N_sOlgOEhARgGdiz1-LHcg8_lN7GAa8GhSJAsOxjdOaMRzzks55sGPr71p2Jw",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2319 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.920888,
+                       "lng" : -77.04172199999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9222033302915,
+                          "lng" : -77.0405470697085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9195053697085,
+                          "lng" : -77.0432450302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+                 "id" : "85f36c6e91598745777648e5c945b1241da96f5a",
+                 "name" : "Ventnor Sports Cafe",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 427,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/118274851521451116806/photos\"\u003eVentnor Sports Cafe\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAYIUn9m9ZKz8wfohI0UEVcauLl2_ywAtIvx_ekn8lvcydI05idaDcwufwFTKkee5tIe60wzI8Ly5k7HZNPpM6rM9AQC0ZRN0gEFldbzVeHhatGTM3-pMuAgqLnfmWxt1LEhAcYX02AGSGqJi1dTW6c2unGhRhVVg6wa4SHn8demb5Fdp4RBtqqQ",
+                       "width" : 427
+                    }
+                 ],
+                 "place_id" : "ChIJTyNatNu3t4kR3ffKZrmr_NI",
+                 "price_level" : 2,
+                 "rating" : 4.1,
+                 "reference" : "CmRSAAAAuRlAf6NkBuqZARGTeNq5A59z4FGDuSRCiq6VjosjijHTPqahjYSYCycnA_djSFNk054Re57x1vB5NzC5t1_7i8ua5aw2VsdyxM0mhu3rlk_1Dspw5NfMPZFWFDWK-AYcEhBrNy0QrZhEQZyClKw8OXD-GhTdO5xx7IqLF4ALU0BEATXbwqg_nw",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2411 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.920168,
+                       "lng" : -77.041504
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9214839802915,
+                          "lng" : -77.04031531970851
+                       },
+                       "southwest" : {
+                          "lat" : 38.91878601970851,
+                          "lng" : -77.04301328029152
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "975e14f4fe911bfc01caba2a5f1536413e6e1c52",
+                 "name" : "Spaghetti Garden",
+                 "place_id" : "ChIJjUuIrtu3t4kRc5tHaFZtwyE",
+                 "price_level" : 1,
+                 "rating" : 4.1,
+                 "reference" : "CmRRAAAAgpWBdGEITXN3lZpOvTkIjRu-XhGEZKtDdUt2VSVNPNm5dZJitFkebrhuce6N8M4nKXdl1t4MVH_gShgUIyon-LF1w3YbL4LygtAPrNIETy49oj19y_cqx2Bwss00b4DZEhB8PSrWbXx-kJalTW7Q0LgtGhRHh-1Xmr0A4ZWTPhN15lDWoXe98g",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2317 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9211625,
+                       "lng" : -77.04195530000001
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9224872302915,
+                          "lng" : -77.0407123697085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9197892697085,
+                          "lng" : -77.04341033029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "c94a9f63a02d78e13ffbdab62d805e1c3a250051",
+                 "name" : "Amsterdam Falafelshop",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1536,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112447690153652652870/photos\"\u003eAmsterdam Falafelshop\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAEnOnaSOWBy5xM1xHc_W77OumOU9JmI9XeJI1Uhmab25VFryOMo5IsGxGiU1r07lNnocRNGBSEMTuChuC6hhFG9D4EeRfGJ9XhgiSiMNaI91kfiNH4oFcnrVh0la9y-ZtEhDEzXT86m2nODW_PlytiBylGhQUsMCTGQFzqTNKuerzY2C6USVV_Q",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJF4FWytu3t4kRde_ONcyVvME",
+                 "price_level" : 1,
+                 "rating" : 4.5,
+                 "reference" : "CmRSAAAACHBuhkKKaaqt-9tzN_e1vopWfdxEMQEzK2yVIIQcSGj4tZkdpd3YactxHasWMPHIoh6VVHYVzDlnYKEzXDZvDAZifJfT3xlB5P5OBTua71rjOmlkNzdXP-zDGlXAv4u3EhBuK2iGsJ64BZCClHSFE3tzGhRuuhTH-XnAegMCoU0dI45-G8mVrg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2425 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9212229,
+                       "lng" : -77.0424735
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9225981302915,
+                          "lng" : -77.0410020197085
+                       },
+                       "southwest" : {
+                          "lat" : 38.91990016970851,
+                          "lng" : -77.04369998029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "11831ca61caa4f4703d4e548db20ff1e47d9f1b2",
+                 "name" : "#1 Juicy Cajun Seafood",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2805,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106186348334285089080/photos\"\u003e#1 Juicy Cajun Seafood\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAnJ3XmFTLkUjqIwfOxWiXlhNMeowuON4p_NLEggfZZsYc0MUw4uhUGFxa_qE3FFmlbMaa3eIEj4RUOHV4gDsxZoVJYHgGOJqkyqdT0RI3DFknq_yymtuSoi57ZTBdUJIwEhDdsKF-UyR-eC5-pXOREQ16GhQDWC9HLSSP-C0qwj8ko8GdXKkTvQ",
+                       "width" : 3911
+                    }
+                 ],
+                 "place_id" : "ChIJUThsNtq3t4kR6To4OkEqoTA",
+                 "rating" : 4.6,
+                 "reference" : "CmRRAAAAJ5opdV2AZNPf70DT_KCKAZ78IhqOanLbQyOY5EPVb5dRQpEVc4uzdOa7_qRPzCWw-BviIw0AdHyG4vlctSl0fTwpmr7yK9zdUrNvP-0b-VWdfXRnuWa2cpK51_MuvgG1EhCz42IACaNzgAq590ZxoFCtGhQgxr2t0Y3VrQDrNnAZFN2NyWSTpg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2418 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9200014,
+                       "lng" : -77.0414555
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9213181302915,
+                          "lng" : -77.04026301970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.9186201697085,
+                          "lng" : -77.0429609802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "a449bb66f32ee687e468072792b91d49833e62e2",
+                 "name" : "Cuba Cuba",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100324626777382075711/photos\"\u003eSherman C\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRZAAAA0ac48cttDUOrqoOFejTEA4-L4R3TVsf2-vdnmBjvikcFnBIclXDyQYweXOjyXjGmB2Xua28o-_70inITo6-kOh979o3kPQjIPGL9q8Svm43PUAy25JsOoBKy0ZcBvxhjEhAYtwIRW3rc_Ys6IM4LJwhfGhR4XZik0ANfQ9Q2vIvROq1JvT2EBQ",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJMa7FqNu3t4kRJgfIJTYxItQ",
+                 "rating" : 4.5,
+                 "reference" : "CmRSAAAAz165WLazE4ZKkzeAvOhKmNg_IIaFISSOfATf1e8Dkzi2Y7vV-gxJdPFicRDzKeyYJDG7K6B3yJh011auNYheJHjTFtk294Q7lKhPGj-HBpikyZgucFr5ftpbWMVEmK4REhAMXwuinbc-lN-Tf5xJ71xQGhR6YfbeSvXI4WrlcZ4uvaAvQO4TTQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2309 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9199485,
+                       "lng" : -77.0414352
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9212650302915,
+                          "lng" : -77.0402437697085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9185670697085,
+                          "lng" : -77.0429417302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "5361d3efe8b8143b58f606bc902c92d6410efb62",
+                 "name" : "Andes DC LLC",
+                 "place_id" : "ChIJbefrqNu3t4kRyeZIOtD9UHY",
+                 "reference" : "CmRRAAAAPu9BAz0jS0WkQAPRmSHux0wtI9JsTLzOcCAmzEqeft3e0XSvy2S6RiPV8kLaJGM40ryBtDcS6ql7wVVhmFNwnqudWOuMA3gMIIO-NnG-qpwU-RPc5OO1UG-9Zi5uu2HoEhAY46Z6tJ1rl0OTy92FmLWnGhQNMU2BxuBeosTrSqfBGHc7jFG97g",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2307 18 Street Northwest # 4, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.919953,
+                       "lng" : -77.041427
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9212685802915,
+                          "lng" : -77.0402401197085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9185706197085,
+                          "lng" : -77.04293808029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "55295602bc0116c6afdfd157631dbc8489cb2d27",
+                 "name" : "Las Canteras Peruvian Restaurant & Bar",
+                 "opening_hours" : {
+                    "open_now" : false,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1367,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104111246635874032234/photos\"\u003eZAGAT\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAnm347T5qDxqMxZwA6JAJjSoa29RPyMU2TgR5JyMAHzSMAFPJKoFIcAE343enb1xyaVUAc_HwhvfXep5yt8BZ-rnB1Kk11uPAyzPuuhxj817P3vSzV8oQW3PQAV6osh3UEhAZdwFFaawPfzJHlYT-IFCdGhTxpHXjjL2k0mhFFFu7cYjQaXg4Iw",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJbefrqNu3t4kRynXJKvbMdVw",
+                 "price_level" : 2,
+                 "rating" : 4.3,
+                 "reference" : "CmRRAAAAcXzT_ixv6CTG74SsFKudnOJIMBH6seGpZfrqCiH3s-UZ3wplJFkGTOmaJEBV6beFc31lsYB1a5yOJyoLlEtlFb_RPUp_GdsSVa1zEFuJFyhd2dbFcnY_YIRak5X1uesmEhDrnvVoxOEIZmY_KJ_mP_MtGhSU_DynDVoJxvhKoxYX4xBI6jjdTw",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2307 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.92122809999999,
+                       "lng" : -77.0419059
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9225449802915,
+                          "lng" : -77.0406971197085
+                       },
+                       "southwest" : {
+                          "lat" : 38.9198470197085,
+                          "lng" : -77.0433950802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+                 "id" : "548878b9a78432f0514f04e6cdbe5c9de0470d27",
+                 "name" : "The Black Squirrel",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 5312,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113861551985408139772/photos\"\u003eAndy Dabydeen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAABvhR0UzIZmUhuG_PBBHxWPiVp0wH1rwoBLyuOPW_Zvt4M5JrJ7iJvd3oDYuf7fYv_XCYw5bnhGuKtMLWWrw3xpCN-inC_qwNY9RgwPD5cUcMUM23pvKNlcStoyg10CHBEhAQPn4-b3EFg62XVRlje8W1GhTiMipJdAiSrXa_5soRaXQVOf6MsA",
+                       "width" : 2988
+                    }
+                 ],
+                 "place_id" : "ChIJt0MHy9u3t4kRPa0oyVNLtLc",
+                 "price_level" : 3,
+                 "rating" : 4.2,
+                 "reference" : "CmRSAAAAEGfKsWfFHeuJCPQeVqn1Wp3Tv-tTBYFsR8bsYNY4XidVlPZe5UYcBN4W5t0QX0TvN4aUO4hdZqpCGqRuIkbuscJYq-p7ekIv-gKgbWGbwRMp2_8qKIZHLkv6FsYGF5AlEhAuv12lPgtuLlB71T7Sgyy7GhSRGJ5btsKbSZ6U73Kbz-4JX_82Zg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2427 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.9212949,
+                       "lng" : -77.0424689
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.92266843029149,
+                          "lng" : -77.04101266970848
+                       },
+                       "southwest" : {
+                          "lat" : 38.9199704697085,
+                          "lng" : -77.0437106302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "f20ed7ba192392348bf43c6fa79681d2995eef48",
+                 "name" : "Zenebech Injera Restaurant",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2988,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107985401506435339051/photos\"\u003eShawn Honer\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAhKk2-vGr0N4Xvl6AAHn1rdQ2t-5OCYcb4RkznPoZiKeyWQn7gC8UNd1K-FqIouLRS9O27RlMIXWAltlgBl98orpLhVe_uVqXR_azPHt34Tj22ljNLX-LDDLBNPclGaszEhCx5AH-ZpNsWQzo0tWd07KTGhTUxll8yWGRH16CW7VCPYZXTIJN6w",
+                       "width" : 5312
+                    }
+                 ],
+                 "place_id" : "ChIJF1KINtq3t4kR0RyERfRDe2k",
+                 "rating" : 4.5,
+                 "reference" : "CmRRAAAAjv1FaN25BUUXLterRZ_8gjolSbbLmVYYBrj8SQf6Xp1Z8C2sNWb4cFV7IQj0V-wEZK8KldSFpBewhIsxzHWWk2CzDJ_cpzCawg_cnHmJKUIg-Q0EpCU8zJK-hHzlBgUaEhA8PD4m0XAsEycWgim7GEskGhTSh3eBgiEepVZMT0_9oDaQ1VyZZg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2420 18 Street Northwest, Washington"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 38.92127509999999,
+                       "lng" : -77.04191590000001
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.9225911802915,
+                          "lng" : -77.04071066970849
+                       },
+                       "southwest" : {
+                          "lat" : 38.9198932197085,
+                          "lng" : -77.04340863029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "4cceca417f9eb0d13e7e8068757e7af4db6da404",
+                 "name" : "Los Cuates Restaurant Adams Morgan",
+                 "opening_hours" : {
+                    "open_now" : true,
+                    "weekday_text" : []
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1536,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110853204393032129101/photos\"\u003eLos Cuates Restaurant Adams Morgan\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAcFxZjBYokZ049l50Z8IJ69qBShAeUCr3YL34qMtVHmGL1GX9AyGgeQqRO8zLj7739_0xyDWAf8-asOT2ntPRlv5Ui7xMLc2fgAOBLRdXPeAB302zYo13999XX-Rb2tVaEhBV6JlCFVBOBPBiRkVJLG1kGhQ_phwqDVXCWyRbP4cOvC0fEODLEA",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJyzIOy9u3t4kRuAowx1pv9aI",
+                 "rating" : 3.3,
+                 "reference" : "CmRSAAAAMhttAAjppBefbfkcXMgUJ8MqDCYpBhh-okPiPH96IdWI6zsiBLCkKECf0hE5VBWGOfHzsw5MPkHi5qbJuEkACpr0Zb_h3T5L8Xs7t9U7nl24tIeGdJ6frYttHKPvdYP-EhDGxLlNAIq_Lh2jaxs7rIfUGhRNZELL1ZaQ1WmjPs1XsL6rcOX-bA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "vicinity" : "2429 18 Street Northwest, Washington"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Thu, 21 Dec 2017 23:31:43 GMT
+recorded_with: VCR 4.0.0

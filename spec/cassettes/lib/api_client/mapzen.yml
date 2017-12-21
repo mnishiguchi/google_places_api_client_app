@@ -1,0 +1,231 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://search.mapzen.com/v1/autocomplete?api_key=mapzen-KYHbf2n&boundary.rect.max_lat=39.7198634855&boundary.rect.max_lon=-76.2341308594&boundary.rect.min_lat=38.2646020963&boundary.rect.min_lon=-77.9830169678&layers=locality,county,neighbourhood,region&size=1&sources=osm,oa,wof&text=Alexandria,%20Virginia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Charset:
+      - utf8
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Apiaxleproxy-Qps-Left:
+      - '5'
+      X-Powered-By:
+      - mapzen
+      Fastly-Restarts:
+      - '1'
+      Content-Length:
+      - '1070'
+      Date:
+      - Fri, 22 Dec 2017 00:53:13 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=120
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, HEAD
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept, Origin, User-Agent, Cache-Control, Keep-Alive,
+        If-Modified-Since, If-None-Match, X-Requested-With
+      Access-Control-Expose-Headers:
+      - Content-Type, Cache-Control, ETag, Expires, Last-Modified, Content-Length,
+        X-ApiaxleProxy-Qpd-Left, X-ApiaxleProxy-Qpm-Left, X-ApiaxleProxy-Qps-Left,
+        X-Cache
+      X-Served-By:
+      - cache-dca17745-DCA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1513903993.445018,VS0,VE37
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"geocoding":{"version":"0.2","attribution":"http://pelias.mapzen.com/v1/attribution","query":{"text":"Alexandria,
+        Virginia","parser":"addressit","parsed_text":{"name":"Alexandria","state":"VA","regions":["Alexandria"],"admin_parts":"Virginia"},"tokens":["Alexandria"],"size":10,"layers":["locality","county","neighbourhood","region"],"sources":["openstreetmap","openaddresses","whosonfirst"],"private":false,"boundary.rect.min_lat":38.2646020963,"boundary.rect.max_lat":39.7198634855,"boundary.rect.min_lon":-77.9830169678,"boundary.rect.max_lon":-76.2341308594,"lang":{"name":"English","iso6391":"en","iso6393":"eng","defaulted":true}},"warnings":["out-of-range
+        integer ''size'', using MIN_SIZE"],"engine":{"name":"Pelias","author":"Mapzen","version":"1.0"},"timestamp":1513903993478},"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.04692,38.80484]},"properties":{"id":"1125864515","gid":"whosonfirst:locality:1125864515","layer":"locality","source":"whosonfirst","source_id":"1125864515","name":"Alexandria","accuracy":"centroid","country":"United
+        States","country_gid":"whosonfirst:country:85633793","country_a":"USA","region":"Virginia","region_gid":"whosonfirst:region:85688747","region_a":"VA","county":"City
+        of Alexandria","county_gid":"whosonfirst:county:102080641","locality":"Alexandria","locality_gid":"whosonfirst:locality:1125864515","continent":"North
+        America","continent_gid":"whosonfirst:continent:102191575","label":"Alexandria,
+        VA, USA"},"bbox":[-77.04692,38.80484,-77.04692,38.80484]},{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.069124,38.818092]},"properties":{"id":"102080641","gid":"whosonfirst:county:102080641","layer":"county","source":"whosonfirst","source_id":"102080641","name":"City
+        of Alexandria","accuracy":"centroid","country":"United States","country_gid":"whosonfirst:country:85633793","country_a":"USA","region":"Virginia","region_gid":"whosonfirst:region:85688747","region_a":"VA","county":"City
+        of Alexandria","county_gid":"whosonfirst:county:102080641","continent":"North
+        America","continent_gid":"whosonfirst:continent:102191575","label":"City of
+        Alexandria, VA, USA"},"bbox":[-77.144359,38.785216,-77.037288,38.845011]},{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.125777,38.833681]},"properties":{"id":"85875825","gid":"whosonfirst:neighbourhood:85875825","layer":"neighbourhood","source":"whosonfirst","source_id":"85875825","name":"Alexandria
+        West","accuracy":"centroid","country":"United States","country_gid":"whosonfirst:country:85633793","country_a":"USA","region":"Virginia","region_gid":"whosonfirst:region:85688747","region_a":"VA","county":"City
+        of Alexandria","county_gid":"whosonfirst:county:102080641","locality":"Alexandria","locality_gid":"whosonfirst:locality:101728581","neighbourhood":"Alexandria
+        West","neighbourhood_gid":"whosonfirst:neighbourhood:85875825","continent":"North
+        America","continent_gid":"whosonfirst:continent:102191575","label":"Alexandria
+        West, Alexandria, VA, USA"},"bbox":[-77.1425452559,38.8172489352,-77.1061706543,38.8389547797]},{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.05664,38.7765]},"properties":{"id":"1125988493","gid":"whosonfirst:locality:1125988493","layer":"locality","source":"whosonfirst","source_id":"1125988493","name":"New
+        Alexandria","accuracy":"centroid","country":"United States","country_gid":"whosonfirst:country:85633793","country_a":"USA","region":"Virginia","region_gid":"whosonfirst:region:85688747","region_a":"VA","county":"Fairfax
+        County","county_gid":"whosonfirst:county:102084863","locality":"New Alexandria","locality_gid":"whosonfirst:locality:1125988493","continent":"North
+        America","continent_gid":"whosonfirst:continent:102191575","label":"New Alexandria,
+        VA, USA"},"bbox":[-77.05664,38.7765,-77.05664,38.7765]}],"bbox":[-77.144359,38.7765,-77.037288,38.845011]}'
+    http_version: 
+  recorded_at: Fri, 22 Dec 2017 00:53:13 GMT
+- request:
+    method: get
+    uri: http://search.mapzen.com/v1/search?api_key=mapzen-KYHbf2n&boundary.rect.max_lat=39.7198634855&boundary.rect.max_lon=-76.2341308594&boundary.rect.min_lat=38.2646020963&boundary.rect.min_lon=-77.9830169678&layers=locality,county,neighbourhood,region&size=1&sources=osm,oa,wof&text=Alexandria,%20Virginia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Charset:
+      - utf8
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Powered-By:
+      - mapzen
+      Fastly-Restarts:
+      - '1'
+      Content-Length:
+      - '764'
+      Date:
+      - Fri, 22 Dec 2017 00:53:13 GMT
+      Age:
+      - '151'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=120
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, HEAD
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept, Origin, User-Agent, Cache-Control, Keep-Alive,
+        If-Modified-Since, If-None-Match, X-Requested-With
+      Access-Control-Expose-Headers:
+      - Content-Type, Cache-Control, ETag, Expires, Last-Modified, Content-Length,
+        X-ApiaxleProxy-Qpd-Left, X-ApiaxleProxy-Qpm-Left, X-ApiaxleProxy-Qps-Left,
+        X-Cache
+      X-Served-By:
+      - cache-dca17731-DCA
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Timer:
+      - S1513903994.651752,VS0,VE0
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"geocoding":{"version":"0.2","attribution":"http://pelias.mapzen.com/v1/attribution","query":{"text":"Alexandria,
+        Virginia","size":1,"layers":["locality","county","neighbourhood","region"],"sources":["openstreetmap","openaddresses","whosonfirst"],"private":false,"boundary.rect.min_lat":38.2646020963,"boundary.rect.max_lat":39.7198634855,"boundary.rect.min_lon":-77.9830169678,"boundary.rect.max_lon":-76.2341308594,"lang":{"name":"English","iso6391":"en","iso6393":"eng","defaulted":true},"querySize":20,"parser":"libpostal","parsed_text":{"city":"alexandria","state":"virginia"}},"engine":{"name":"Pelias","author":"Mapzen","version":"1.0"},"timestamp":1513903843105},"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.049221,38.836368]},"properties":{"id":"101728581","gid":"whosonfirst:locality:101728581","layer":"locality","source":"whosonfirst","source_id":"101728581","name":"Alexandria","confidence":1,"match_type":"exact","accuracy":"centroid","country":"United
+        States","country_gid":"whosonfirst:country:85633793","country_a":"USA","region":"Virginia","region_gid":"whosonfirst:region:85688747","region_a":"VA","county":"City
+        of Alexandria","county_gid":"whosonfirst:county:102080641","locality":"Alexandria","locality_gid":"whosonfirst:locality:101728581","continent":"North
+        America","continent_gid":"whosonfirst:continent:102191575","label":"Alexandria,
+        VA, USA"},"bbox":[-77.1443613231,38.785223763,-77.0372902895,38.845018774]}],"bbox":[-77.1443613231,38.785223763,-77.0372902895,38.845018774]}'
+    http_version: 
+  recorded_at: Fri, 22 Dec 2017 00:53:13 GMT
+- request:
+    method: get
+    uri: http://search.mapzen.com/v1/reverse?api_key=mapzen-KYHbf2n&boundary.rect.max_lat=39.7198634855&boundary.rect.max_lon=-76.2341308594&boundary.rect.min_lat=38.2646020963&boundary.rect.min_lon=-77.9830169678&layers=locality,county,neighbourhood,region&point.lat=38.836368&point.lon=-77.049221&size=1&sources=osm,oa,wof
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Charset:
+      - utf8
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Apiaxleproxy-Qps-Left:
+      - '4'
+      X-Powered-By:
+      - mapzen
+      Fastly-Restarts:
+      - '1'
+      Content-Length:
+      - '765'
+      Date:
+      - Fri, 22 Dec 2017 00:53:13 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=120
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, HEAD
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type, Accept, Origin, User-Agent, Cache-Control, Keep-Alive,
+        If-Modified-Since, If-None-Match, X-Requested-With
+      Access-Control-Expose-Headers:
+      - Content-Type, Cache-Control, ETag, Expires, Last-Modified, Content-Length,
+        X-ApiaxleProxy-Qpd-Left, X-ApiaxleProxy-Qpm-Left, X-ApiaxleProxy-Qps-Left,
+        X-Cache
+      X-Served-By:
+      - cache-dca17750-DCA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1513903994.753512,VS0,VE23
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"geocoding":{"version":"0.2","attribution":"http://pelias.mapzen.com/v1/attribution","query":{"layers":["locality","county","neighbourhood","region"],"sources":["openstreetmap","openaddresses","whosonfirst"],"size":1,"private":false,"point.lat":38.836368,"point.lon":-77.049221,"boundary.circle.lat":38.836368,"boundary.circle.lon":-77.049221,"lang":{"name":"English","iso6391":"en","iso6393":"eng","defaulted":true},"querySize":20},"warnings":["Invalid
+        Parameter: boundary.rect.max_lat","Invalid Parameter: boundary.rect.max_lon","Invalid
+        Parameter: boundary.rect.min_lat","Invalid Parameter: boundary.rect.min_lon"],"engine":{"name":"Pelias","author":"Mapzen","version":"1.0"},"timestamp":1513903993776},"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.049277,38.836363]},"properties":{"id":"1108725023","gid":"whosonfirst:neighbourhood:1108725023","layer":"neighbourhood","source":"whosonfirst","source_id":"1108725023","name":"Potomac
+        Yard North","confidence":0.9,"distance":0.005,"accuracy":"centroid","country":"United
+        States","country_gid":"whosonfirst:country:85633793","country_a":"USA","region":"Virginia","region_gid":"whosonfirst:region:85688747","region_a":"VA","county":"City
+        of Alexandria","county_gid":"whosonfirst:county:102080641","locality":"Alexandria","locality_gid":"whosonfirst:locality:101728581","neighbourhood":"Potomac
+        Yard North","neighbourhood_gid":"whosonfirst:neighbourhood:1108725023","continent":"North
+        America","continent_gid":"whosonfirst:continent:102191575","label":"Potomac
+        Yard North, Alexandria, VA, USA"},"bbox":[-77.052340202,38.8323876144,-77.0463463416,38.8402890119]}],"bbox":[-77.052340202,38.8323876144,-77.0463463416,38.8402890119]}'
+    http_version: 
+  recorded_at: Fri, 22 Dec 2017 00:53:13 GMT
+recorded_with: VCR 4.0.0

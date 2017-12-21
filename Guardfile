@@ -52,6 +52,7 @@ guard :rspec, cmd: "bundle exec rspec" do
       *Dir.glob("spec/controllers/**/#{m[1]}_controller_spec.rb")
     ]
   end
+  watch(%r{^spec/lib/(.+)\.rb$}) { |m| [*Dir.glob("spec/lib/#{m[1]}_spec.rb")] }
 
   # # Capybara features specs
   # watch(rails.view_dirs)     { |m| rspec.spec.call("features/#{m[1]}") }
